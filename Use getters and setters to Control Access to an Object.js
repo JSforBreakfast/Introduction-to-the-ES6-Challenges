@@ -1,17 +1,11 @@
 function makeClass() {
   "use strict";
   /* Alter code below this line */
-class Thermostat{
+class Thermostat {
     constructor(fahrenheit){
-      this.fahrenheit = fahrenheit;
+      this.Thermostat = temp;
     }
-    get temperature(){
-      return 5 / 9 * (this.fahrenheit - 32);
-    }
-    set temperature(celsius){
-      this.fahrenheit = celsius * 9.0 / 5 + 32;
-    }
-  }
+}
   /* Alter code above this line */
   return Thermostat;
 }
